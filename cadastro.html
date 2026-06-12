@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro - Game InBox</title>
+    <link rel="stylesheet" href="stylehome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="menu-esquerda">
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Jogos ▾</a>
+                    <ul class="submenu">
+                        <li><a href="#">Ação</a></li>
+                        <li><a href="#">RPG</a></li>
+                        <li><a href="#">Terror</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="index.html" class="logo">
+            <img src="img/logo.png.png">
+            <h1>Game InBox</h1>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="carrinho.html">🛒</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+
+            <h2>Crie sua conta</h2>
+
+            <form>
+
+                <div class="grupo-input">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="confirmar">Confirmar senha</label>
+                    <input type="password" id="confirmar" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="plataforma">Plataforma favorita</label>
+                    <select id="plataforma">
+                        <option>PC</option>
+                        <option>PlayStation</option>
+                        <option>Xbox</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-comprar">Cadastrar</button>
+
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Game InBox. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
